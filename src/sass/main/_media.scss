@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+    .header {
+        &__nav {
+            &-item {
+                a:hover {
+                    color: #D6CEE1;
+                }
+            }
+        }
+        &__social {
+            &:hover {
+                background-color: #8754D9;
+                    path {
+                        fill: #FFFFFF;
+                    }
+            }
+        }
+    }
+    .main {
+        &__btns {
+            &-google, &-apple {
+                &:hover {
+                    background: #fff;
+                    color: #A658DB;
+                    path {
+                        fill: #A658DB;
+                    }
+                }
+            }
+        }
+    }
+}
