@@ -11,6 +11,7 @@
         color: #FFFFFF;
         max-width: 518px;
         font-size: 18px;
+        font-weight: normal;
         span {
             font-weight: bold;
             font-size: 28px;
@@ -26,12 +27,14 @@
             margin-bottom: 13px;
         }
         a {
+            font-size: 18px;
             color: #FFFFFF;
             text-decoration: none;
+            line-height: 160%;
         }
     }
     &__socials {
-        max-width: 237px;
+        width: 320px;
         span {
             font-weight: bold;
             font-size: 28px;
@@ -54,7 +57,7 @@
         align-items: center;
     }
     hr {
-        margin-top: 84px;
+        margin-top: 52px;
         margin-bottom: 48px;
     }
     &__rights {

@@ -1,6 +1,6 @@
 .main {
     padding-top: 150px;
-    background: url('../../img/background.jpg') center center / cover no-repeat;
+    background: url('../img/background.jpg') center center / cover no-repeat;
     height: 1075px;
     z-index: -1;
     &__wrapper {
@@ -21,10 +21,12 @@
     &__title {
         font-weight: bold;
         font-size: 48px;
+        line-height: 124%;
     }
     &__subtitle {
         margin-top: 14px;
         font-size: 20px;
+        font-weight: normal;
     }
     &__btns {
         max-width: 421px;
