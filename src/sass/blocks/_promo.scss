@@ -1,6 +1,7 @@
 .promo {
     min-height: 1252px;
     padding-top: 60px;
+    overflow: hidden;
     &__title {
         font-weight: 500;
         font-size: 46px;
@@ -23,6 +24,9 @@
         justify-content: space-between;
         height: 667px;
         margin-top: 68px;
+    }
+    &__right {
+        text-align: end; 
     }
     &__block {
         display: flex;
